@@ -1,0 +1,15 @@
+Inisialisasi Working Directory
+$ git init
+
+status file
+untracked => berada di dalam directory namun masih belum tersimpan di local repository
+
+Setup Remote Repository
+$ git remote <command> <argument>
+$ git remote add namaRemote linkRemote
+$ git remote get-url namaRemote
+
+Melakukan Penyimpanan Sementara
+$ git add <...directory_file>
+$ git add ./namaFolder ./namaFile.ext
+$ git add .
