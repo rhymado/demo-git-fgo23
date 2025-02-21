@@ -4,6 +4,7 @@ $ git init
 status file
 U => untracked => berada di dalam directory namun masih belum tersimpan di local repository
 A => index added => sudah didaftarkan untuk disimpan
+M => index modified => ada perubahan dari yang sudah terdaftar
 
 Setup Remote Repository
 $ git remote <command> <argument>
@@ -18,3 +19,16 @@ $ git add .
 Melakukan Penyimpanan Permanen
 $ git commit <flag> <argument>
 $ git commit -m "pesan-commit"
+
+Sinkronisasi local ke remote
+$ git push <flag> <argument>
+$ git push namaRemote namaBranch
+$ git push -u namaRemote namaBranch
+-u => set upstream (hulu)
+
+Sinkronisasi remote ke local
+$ git pull <argument>
+$ git pull namaRemote namaBranch
+
+Pengecekan status (branch, update)
+$ git status
