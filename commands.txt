@@ -57,3 +57,10 @@ menghapus branch
 
 checkout (berpindah branch)
 $ git checkout namaBranch
+berpindah ke namaBranch
+$ git checkout -b namaBranchBaru
+membuat branch baru sekaligus berpindah ke branch tersebut
+
+merge (menggabungkan branch)
+$ git merge branchAsal
+untuk merging, posisi harus di branch tujuan merging, branchAsal bisa lebih dari satu
