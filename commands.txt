@@ -2,7 +2,8 @@ Inisialisasi Working Directory
 $ git init
 
 status file
-untracked => berada di dalam directory namun masih belum tersimpan di local repository
+U => untracked => berada di dalam directory namun masih belum tersimpan di local repository
+A => index added => sudah didaftarkan untuk disimpan
 
 Setup Remote Repository
 $ git remote <command> <argument>
@@ -13,3 +14,7 @@ Melakukan Penyimpanan Sementara
 $ git add <...directory_file>
 $ git add ./namaFolder ./namaFile.ext
 $ git add .
+
+Melakukan Penyimpanan Permanen
+$ git commit <flag> <argument>
+$ git commit -m "pesan-commit"
