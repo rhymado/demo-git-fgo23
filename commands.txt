@@ -43,3 +43,17 @@ reset
 $ git reset <argument>
 revert
 $ git revert <argument>
+
+branching (percabangan)
+$ git branch <flag> <argument>
+$ git branch namaBranch
+membuat branch baru dengan nama namaBranch dengan meng-copy branch saat ini
+$ git branch -m branchLama branchBaru
+rename branch
+$ git branch -c branchLama branchBaru
+copy branch
+$ git branch -d namaBranch
+menghapus branch
+
+checkout (berpindah branch)
+$ git checkout namaBranch
