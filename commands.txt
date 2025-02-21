@@ -32,3 +32,14 @@ $ git pull namaRemote namaBranch
 
 Pengecekan status (branch, update)
 $ git status
+
+mengecek log (riwayat)
+$ git log
+riwayat publik
+$ git reflog
+riwayat private
+
+reset
+$ git reset <argument>
+revert
+$ git revert <argument>
